@@ -2,10 +2,10 @@ function [img,head] = ismrmrd_img_to_nifti(output_path)
 
 %% Add path to needed librairies
 
-addpath('/usr/local/share/ismrmrd/matlab/')
-addpath('../../ismrmrd_to_nifti')
-addpath('../../ismrmrd_to_nifti/+ismrmrd_to_nifti')
-addpath('../../ismrmrd_to_nifti/xiangruili-dicm2nii-b76a158')
+% addpath('../../ismrmrd/matlab')
+% addpath('../../ismrmrd_to_nifti')
+% addpath('../../ismrmrd_to_nifti/+ismrmrd_to_nifti')
+% addpath('../../ismrmrd_to_nifti/xiangruili-dicm2nii-b76a158')
 clearvars
 
 if nargin < 1

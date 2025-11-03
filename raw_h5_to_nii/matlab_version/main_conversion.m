@@ -1,8 +1,8 @@
 %% Add path to needed librairies
 
-addpath('/usr/local/share/ismrmrd/matlab/')
-addpath('/.../ismrmrd_to_nifti')
-addpath('/.../ismrmrd_to_nifti/xiangruili-dicm2nii-b76a158')
+% addpath('../../ismrmrd/')
+% addpath('../../ismrmrd_to_nifti')
+% addpath('../../ismrmrd_to_nifti/xiangruili-dicm2nii-b76a158')
 clearvars
 
 

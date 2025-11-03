@@ -6,7 +6,7 @@
 function gadgetron_to_nii(img,data_header,connection_header,pathname)
 % Get crop image, flip and rotationate to match with true Nifti image
 img = ismrmrd_to_nifti.flip_image(abs(img));
-
+img=permute(img,[2 1 3]); %**PT**2025
 h = extract_ismrmrd_parameters_from_headers(data_header, connection_header);
 
 % Create nii struct based on img
